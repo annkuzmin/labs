@@ -1,0 +1,36 @@
+<html> 
+	<head> 
+		<meta charset="utf-8"> 
+		<link href="index.css" type="text/css" rel="stylesheet" /> 
+	</head> 
+	<body> 
+		<header>
+			Simple laba for sharaga
+		</header>
+		<div id="main">
+			<article>
+				<div>
+					<label for="first_value">
+						Vash answer:
+					</label>
+					<input id="first_value" />
+				</div>
+				<div>
+					<label for="second_value">
+						Your otvet:
+					</label>
+					<input id="second_value" />
+				</div>
+				<span id=”result”></span>
+			</article>
+			<nav>
+				<a href="#">Summa togo, chto ti ne sdelal</a>
+				<a href="#">Minus (ti)</a>
+				<a href="#">Proizvedenie tvoih oshibok</a>
+				<a href="#">Delenie (ti ponyal)</a>
+			</nav>
+			<aside>
+		</div>
+		<script src="index.js" type="text/javascript"></script>
+	</body> 
+</html>
