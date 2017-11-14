@@ -1,0 +1,50 @@
+<html> 
+	<head> 
+		<meta charset="utf-8"> 
+		<link href="index.css" type="text/css" rel="stylesheet" /> 
+	</head> 
+	<body> 
+		<header>
+			Simple laba for sharaga
+		</header>
+		<div id="main">
+			<article>
+				<div>
+					<label for="first_value">
+						Vash answer:
+					</label>
+					<input id="first_value" />
+				</div>
+				<div>
+					<label for="second_value">
+						Your otvet:
+					</label>
+					<input id="second_value" />
+				</div>
+				<span id=”result”></span>
+			</article>
+			<nav>
+				<a 
+					href="#"
+					onclick="addition(document.getElementById('first_value').value, document.getElementById('second_value').value)"
+					>Summa togo, chto ti ne sdelal</a>
+				<a 
+					href="#"
+					onclick="minus(document.getElementById('first_value').value, document.getElementById('second_valuee').value)"
+					>Minus (ti)</a>
+				<a 
+					href="#"
+					onclick="proiz(document.getElementById('first_value').value, document.getElementById('second_value').value)"
+					>Proizvedenie tvoih oshibok</a>
+				<a 
+					href="#"
+					onclick="delen(document.getElementById('first_value').value, document.getElementById('second_value').value)"
+					>Delenie (ti ponyal)</a>
+			</nav>
+			<aside>
+			</aside>
+		</div>
+		<footer></footer>
+		<script src="index.js" type="text/javascript"></script>
+	</body> 
+</html>
